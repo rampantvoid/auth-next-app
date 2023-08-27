@@ -1,0 +1,154 @@
+::placeholder {
+  color: rgb(0, 0, 0) !important;
+  font-family: roboto !important;
+}
+
+:disabled {
+  color: rgb(211, 211, 211);
+}
+
+* {
+  font-family: roboto;
+}
+
+.login-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* font-family: "Courier New", Courier, monospace; */
+}
+.login-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  gap: 30px;
+}
+
+.field-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.field-container div {
+  display: flex;
+  flex-direction: column;
+}
+
+.field-container div input {
+  color: black;
+  background-color: rgb(255, 255, 255) !important;
+  width: 400px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+  padding: 20px 50px;
+  outline: none;
+  transition: 0.2s ease;
+}
+
+#email:focus {
+  outline: none;
+  /* border-color: rgb(0, 0, 0) !important; */
+  box-shadow: 0px 0px 30px rgb(0, 119, 255, 1) !important;
+}
+#password:focus {
+  outline: none;
+  /* border-color: rgb(0, 0, 0) !important; */
+  box-shadow: 0px 0px 30px rgb(0, 119, 255, 1) !important;
+}
+
+#password {
+  background: url("https://cdn1.iconfinder.com/data/icons/ios-11-glyphs/30/password-512.png");
+  background-size: 30px;
+  background-position: 10px;
+  background-repeat: no-repeat;
+}
+
+#email {
+  background: url("https://cdn-icons-png.flaticon.com/512/542/542638.png");
+  background-size: 30px;
+  background-position: 10px;
+  background-repeat: no-repeat;
+}
+
+.forgot-pass {
+  display: flex;
+  flex-direction: row !important;
+  justify-content: space-between;
+}
+
+.forgot-pass {
+  text-align: right;
+  text-transform: capitalize;
+  color: rgb(196, 196, 196);
+  font-size: 16px;
+  align-items: center;
+}
+.field-container label {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.line div {
+  width: 100px;
+  border-top: rgb(196, 196, 196) solid 1px;
+}
+
+.login-btn {
+  border: none;
+  text-decoration: none;
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-size: 20px;
+  background-color: rgb(0, 109, 235);
+  transition: 0.2s ease;
+}
+
+.login-btn:hover {
+  cursor: pointer;
+  background-color: rgb(0, 96, 206);
+}
+.alt-options {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  gap: 5px;
+}
+
+.alt-options a {
+  color: rgb(0, 109, 235);
+}
+
+.disabled {
+  background-color: rgb(0, 71, 151) !important;
+}
+
+.disabled:hover {
+  cursor: default !important;
+}
+
+#remember-me {
+  width: 15px;
+}
+
+.rem-me-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
